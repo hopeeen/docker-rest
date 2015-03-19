@@ -46,7 +46,7 @@ public class AccountsEndpoint {
         //TODO: Add location header and remove entity from body
         return new ResponseEntity<AccountResource>(
             accountResource,
-            HttpStatus.CREATED
+            HttpStatus.OK
         );
     }
 }

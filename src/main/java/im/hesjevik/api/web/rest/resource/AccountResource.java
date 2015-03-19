@@ -6,6 +6,7 @@ import org.springframework.hateoas.ResourceSupport;
 
 public class AccountResource extends ResourceSupport {
 
+	
     @JsonCreator
     public AccountResource() {}
 
